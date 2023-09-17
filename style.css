@@ -4,8 +4,24 @@
     --text-font-family:"Open Sans", sans-serif;
     --link-hover-color:#FF6C00;
 }
+.contact-container{
+    display: flex;
+ width: 40%;
+ justify-content: space-between;
+ align-items: center;
+}
 .global-header{
     background-color: #333333;
+    display: flex;
+}
+
+
+.global-header .main-navigation ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 405px;
+    
 }
 .global-header .main-navigation a:link, 
 .global-header .main-navigation a:visited
@@ -23,6 +39,12 @@
 
 .global-header .main-navigation a:hover{
     color: var(--link-hover-color);
+}
+.nav-container{
+    display:flex;
+    align-items: center;
+    width: 80%;
+    justify-content:space-between;
 }
 
 h1,h2,h3,h4,h5,h6{
